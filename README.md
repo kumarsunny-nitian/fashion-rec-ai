@@ -1,60 +1,56 @@
-# 👕 StyleSense: Fashion Recommendation System
+# 👕 StyleSense — Fashion Recommendation System
 
-🔗 Live Demo: https://huggingface.co/spaces/rishusah/fashion-recommender  
+StyleSense is a deep learning-based fashion recommendation system that recommends visually similar fashion items based on an uploaded image.
+
+The system uses a pretrained **ResNet50** model to extract meaningful visual features from fashion images and **Cosine Similarity** to identify the most similar items from the dataset.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository:** [fashion-rec-ai](https://github.com/kumarsunny-nitian/fashion-rec-ai)
+- **Live Demo:** [Hugging Face Spaces](https://huggingface.co/spaces/rishusah/fashion-recommender)
 
 ---
 
 ## ✨ Features
 
-- Upload any fashion image  
-- Deep feature extraction using ResNet50  
-- Similarity-based recommendations (Top-3)  
-- Real-time inference with Gradio UI  
-- Lightweight dataset for fast performance  
+- 📷 Upload a fashion image
+- 🧠 Deep feature extraction using ResNet50
+- 🔍 Content-based image recommendation
+- 📊 Cosine similarity for comparing image embeddings
+- 👕 Top-3 similar fashion recommendations
+- ⚡ Real-time inference
+- 🖥️ Interactive Gradio interface
+- 📦 Lightweight fashion image dataset
 
 ---
 
 ## 🧠 How It Works
 
-1. User uploads an image  
-2. Image is resized to 224×224  
-3. ResNet50 extracts feature embeddings  
-4. Cosine similarity is computed  
-5. Top-3 similar images are returned  
+The recommendation pipeline works in the following steps:
 
----
-
-## 🛠️ Tech Stack
-
-- Python  
-- TensorFlow / Keras  
-- NumPy  
-- Gradio  
-- Computer Vision  
-
----
-
-## 🚀 Setup Instructions
-
-git clone https://github.com/DibyanshuSah/Fashion-Recommendation-System.git  
-cd Fashion-Recommendation-System  
-pip install -r requirements.txt  
-python app.py  
-
----
-
-## 🎯 Future Improvements
-
-- Category-based recommendations  
-- Faster inference using precomputed embeddings  
-- Improved UI (cards, filters)  
-
----
-
-## 🧠 Key Learnings
-
-- Feature extraction using CNNs  
-- Similarity search in high-dimensional space  
-- ML deployment on Hugging Face Spaces  
-
----
+```text
+                 User Uploads Image
+                         │
+                         ▼
+                Image Preprocessing
+                    224 × 224
+                         │
+                         ▼
+                  ResNet50 Model
+                         │
+                         ▼
+                Feature Extraction
+                         │
+                         ▼
+                Image Embedding
+                         │
+                         ▼
+              Cosine Similarity
+                         │
+                         ▼
+              Find Similar Images
+                         │
+                         ▼
+          Top-3 Fashion Recommendations
