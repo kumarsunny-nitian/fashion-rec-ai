@@ -87,18 +87,6 @@ python app.py
 
 ---
 
-## 📁 Project Structure
-
-```text
-fashion-rec-ai/
-├── images/              # Fashion image dataset
-├── app.py               # Main application file
-├── requirements.txt      # Python dependencies
-└── README.md
-```
-
----
-
 ## 📌 Future Improvements
 
 - Expand dataset for broader fashion category coverage
