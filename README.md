@@ -1,6 +1,6 @@
-# 👕 StyleSense — Fashion Recommendation System
+# 👗 StyleMatch — Deep Learning-Powered Fashion Recommendation System
 
-StyleSense is a deep learning-based fashion recommendation system that recommends visually similar fashion items based on an uploaded image.
+StyleSense is a deep learning-based fashion recommendation system that suggests visually similar fashion items based on an uploaded image.
 
 The system uses a pretrained **ResNet50** model to extract meaningful visual features from fashion images and **Cosine Similarity** to identify the most similar items from the dataset.
 
@@ -54,3 +54,55 @@ The recommendation pipeline works in the following steps:
                          │
                          ▼
           Top-3 Fashion Recommendations
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **PyTorch / TensorFlow** — ResNet50 model
+- **Gradio** — Interactive web interface
+- **NumPy / Scikit-learn** — Cosine similarity computation
+- **PIL / OpenCV** — Image preprocessing
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/kumarsunny-nitian/fashion-rec-ai.git
+cd fashion-rec-ai
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the app
+```bash
+python app.py
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+fashion-rec-ai/
+├── images/              # Fashion image dataset
+├── app.py               # Main application file
+├── requirements.txt      # Python dependencies
+└── README.md
+```
+
+---
+
+## 📌 Future Improvements
+
+- Expand dataset for broader fashion category coverage
+- Add filtering by category, color, or price
+- Deploy with a scalable vector database (e.g., FAISS) for faster retrieval
+- Add user feedback loop to improve recommendation relevance
