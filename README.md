@@ -8,8 +8,7 @@ The system uses a pretrained **ResNet50** model to extract meaningful visual fea
 
 ## 🔗 Links
 
-- **GitHub Repository:** [fashion-rec-ai](https://github.com/kumarsunny-nitian/fashion-rec-ai)
-- **Live Demo:** [Hugging Face Spaces](https://huggingface.co/spaces/rishusah/fashion-recommender)
+- **Live Demo:** (https://huggingface.co/spaces/rishusah/fashion-recommender)
 
 ---
 
