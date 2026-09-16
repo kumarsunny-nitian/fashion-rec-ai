@@ -8,7 +8,7 @@ The system uses a pretrained **ResNet50** model to extract meaningful visual fea
 
 ## 🔗 Links
 
-- **Live Demo:** (https://huggingface.co/spaces/rishusah/fashion-recommender)
+- **Live Demo:** https://huggingface.co/spaces/rishusah/fashion-recommender
 
 ---
 
